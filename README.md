@@ -1,10 +1,25 @@
-# opengraph-lib
-A library javascript for detect url and read some opngraph balise support whatsapp and twitter UX display design 
-online demo:https://iwishyou.cf/chat/index.html
-add in your head before other script 
+# OpenGraph
+
+Opengraph-link-reader is a javascript library to read the opengraph balise for a specific link he can automatically generate facebook and whatsapp opengraph Ui display
+
+## Installation
+
+Put this html balise in the <head>.
+
+```html
 <script src="./oglib.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/psl/1.8.0/psl.min.js"></script>
 <link rel="stylesheet" href="og.css">
-and read message with url 
+```
+
+## Usage
+
+```javascript
 ogfind.ogNewMsg(msg,display); 
-this return a html response with class wait it's wait server responce and some div with opengraph data the css file automatically generate UX and Ui
+//he automatically find the url in the text 
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+online demo:https://iwishyou.cf/chat/index.html
